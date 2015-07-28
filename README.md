@@ -15,7 +15,7 @@ SIZE: word vector size
 FORMAT: model format: bin (binary) or txt (text)
 
 
-### Availability
+### Download
 
 https://estnltk.cs.ut.ee/sass/word2vec-models/
 
