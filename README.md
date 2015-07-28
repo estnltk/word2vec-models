@@ -9,10 +9,10 @@ We provide a number of models trained using [word2vec](https://code.google.com/p
 
    `<CORPUS>.<ARCHITECTURE>.s<SIZE>.w2v.<FORMAT>`
 
-CORPUS: lemmas or words
-ARCHITECTURE: sg (skip gram) or cbow (continuous bag of words)
-SIZE: word vector size
-FORMAT: model format: bin (binary) or txt (text)
+CORPUS: lemmas or words  
+ARCHITECTURE: sg (skip gram) or cbow (continuous bag of words)  
+SIZE: word vector size  
+FORMAT: model format: bin (binary) or txt (text)  
 
 
 ### Download
