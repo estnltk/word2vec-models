@@ -5,9 +5,7 @@ Word2vec models trained on an estonian text corpus.
 The models were trained on a text corpus composed of estonian online media articles and a [morphologically disambiguated corpus](http://www.cl.ut.ee/korpused/morfkorpus/). The corpus consists of 16M sentences, 282M words and 841К types. Lemmatized version of the corpus contains 445K types.
 
 ### Models
-We provide a number of models trained using [word2vec](https://code.google.com/p/word2vec/) software. Model's file name (e.g. *lemmas.cbow.s200.w2v.bin*) encodes a particular set of parameters used for training:
-
-   `<CORPUS>.<ARCHITECTURE>.s<SIZE>.w2v.<FORMAT>`
+We provide a number of models trained using [word2vec](https://code.google.com/p/word2vec/) software. Model's file name (e.g. *lemmas.cbow.s200.w2v.bin*) encodes a particular set of parameters used for training as `<CORPUS>.<ARCHITECTURE>.s<SIZE>.w2v.<FORMAT>`, where
 
 CORPUS: lemmas or words  
 ARCHITECTURE: sg (skip gram) or cbow (continuous bag of words)  
