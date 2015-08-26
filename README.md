@@ -14,8 +14,7 @@ FORMAT: model format: bin (binary) or txt (text)
 
 
 ### Download
-Due to [storage limitations at github](https://help.github.com/articles/what-is-my-disk-quota/#file-and-repository-size-limitations), model files are available for download from a separate repository 
-https://estnltk.cs.ut.ee/sass/word2vec-models/
+Model files are available for download at http://ats.cs.ut.ee/keeletehnoloogia/estnltk/word2vec/
 
 
 ### Usage
