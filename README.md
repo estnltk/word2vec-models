@@ -10,7 +10,7 @@ Model's file name encodes a particular set of parameters used for training as `<
 
 CORPUS: lemmas or words  
 ARCHITECTURE: sg (skip gram) or cbow (continuous bag of words)  
-SIZE: word vector size  
+SIZE: word vector siz (100 or 200)
 FORMAT: model format: bin (binary) or txt (text)  
 
 
@@ -19,6 +19,7 @@ Model files are available for download at http://ats.cs.ut.ee/keeletehnoloogia/e
 
 ### Training Data
 The corpus consists of 16M sentences, 55M words and 3M types. Lemmatized version of the corpus contains 2M types.
+Corpus preprocesing, including tokenization and lemmatization, have been performed using `estnltk` toolkit.
 
 ### Usage
 The models can be used with [word2vec](https://code.google.com/p/word2vec/) tools or [gensim](https://radimrehurek.com/gensim/).
