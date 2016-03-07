@@ -1,11 +1,12 @@
 # word2vec-models
 Word2vec models trained on an estonian text corpus.
 
-### Training Data
-The models were trained on a text corpus composed of estonian online media articles and a [morphologically disambiguated corpus](http://www.cl.ut.ee/korpused/morfkorpus/). The corpus consists of 16M sentences, 282M words and 841К types. Lemmatized version of the corpus contains 445K types.
-
 ### Models
-We provide a number of models trained using [word2vec](https://code.google.com/p/word2vec/) software. Model's file name (e.g. *lemmas.cbow.s200.w2v.bin*) encodes a particular set of parameters used for training as `<CORPUS>.<ARCHITECTURE>.s<SIZE>.w2v.<FORMAT>`, where
+We provide a number of models trained with [word2vec](https://code.google.com/p/word2vec/) software. 
+As training data, we used [Estonian Reference Corpus](http://www.cl.ut.ee/korpused/segakorpus/index.php?lang=en), a collection of texts covering newspaper, fiction, science and legislation domain.
+The models have been trained using both original and lemmatized version of the corpus.
+
+Model's file name encodes a particular set of parameters used for training as `<CORPUS>.<ARCHITECTURE>.s<SIZE>.w2v.<FORMAT>`, where
 
 CORPUS: lemmas or words  
 ARCHITECTURE: sg (skip gram) or cbow (continuous bag of words)  
@@ -16,6 +17,8 @@ FORMAT: model format: bin (binary) or txt (text)
 ### Download
 Model files are available for download at http://ats.cs.ut.ee/keeletehnoloogia/estnltk/word2vec/
 
+### Training Data
+The corpus consists of 16M sentences, 55M words and 3M types. Lemmatized version of the corpus contains 2M types.
 
 ### Usage
 The models can be used with [word2vec](https://code.google.com/p/word2vec/) tools or [gensim](https://radimrehurek.com/gensim/).
