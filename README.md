@@ -4,15 +4,7 @@ Word2vec models trained on an estonian text corpus.
 ### Models
 We provide a number of models trained with [word2vec](https://code.google.com/p/word2vec/) software. 
 As training data, we used [Estonian Reference Corpus](http://www.cl.ut.ee/korpused/segakorpus/index.php?lang=en), a collection of texts covering newspaper, fiction, science and legislation domain.
-The models have been trained using both original and lemmatized version of the corpus.
-
-Model's file name encodes a particular set of parameters used for training as `<CORPUS>.<ARCHITECTURE>.s<SIZE>.w2v.<FORMAT>`, where
-
-CORPUS: lemmas or words  
-ARCHITECTURE: sg (skip gram) or cbow (continuous bag of words)  
-SIZE: word vector siz (100 or 200)
-FORMAT: model format: bin (binary) or txt (text)  
-
+We include separate models trained on the original and the lemmatised version of the corpus.
 
 ### Download
 Model files are available for download at http://ats.cs.ut.ee/keeletehnoloogia/estnltk/word2vec/
