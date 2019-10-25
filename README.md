@@ -7,7 +7,11 @@ As training data, we used [Estonian Reference Corpus](http://www.cl.ut.ee/korpus
 We include separate models trained on the original and the lemmatised version of the corpus.
 
 ### Download
-Model files are available for download at http://ats.cs.ut.ee/keeletehnoloogia/estnltk/word2vec/
+Model files are available for download at https://entu.keeleressursid.ee/shared/7540/I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0
+Earlier in time the same files were hosted at
+http://ats.cs.ut.ee/keeletehnoloogia/estnltk/word2vec/
+
+
 
 ### Training Data
 The corpus consists of 16M sentences, 55M words and 3M types. Lemmatized version of the corpus contains 2M types.
