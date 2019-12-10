@@ -65,19 +65,19 @@ Word: tartu  Position in vocabulary: 128
 
 *Gensim* example:
 ```python 
->>> from gensim.models import Word2Vec
->>> model = Word2Vec.load_word2vec_format('lemmas.cbow.s200.w2v.bin', binary=True)
+>>> from gensim.models import KeyedVectors
+>>> model = KeyedVectors.load_word2vec_format('lemmas.cbow.s200.w2v.bin', binary=True)
 >>> model.most_similar('harjumaa')
-[(u'tartumaa', 0.6920183897018433),
- (u'viljandimaa', 0.6369808316230774),
- (u'pärnumaa', 0.5991454720497131),
- (u'läänemaa', 0.5967578887939453),
- (u'järvamaa', 0.5643939971923828),
- (u'jõgevamaa', 0.5635586977005005),
- (u'valgamaa', 0.5634534955024719),
- (u'tn1', 0.5596972703933716),
- (u'raplamaa', 0.5580025315284729),
- (u'põlvamaa', 0.547003448009491)]
+[('lääne-virumaa', 0.7403180003166199),
+ ('järvamaa', 0.7391915321350098),
+ ('tartumaa', 0.7278606295585632),
+ ('pärnumaa', 0.7234846949577332),
+ ('viljandimaa', 0.7169549465179443),
+ ('ida-virumaa', 0.7112703919410706),
+ ('raplamaa', 0.6816533803939819),
+ ('läänemaa', 0.6799672842025757),
+ ('jõgevamaa', 0.6791231632232666),
+ ('põlvamaa', 0.6766212582588196)]
 
 ```
 For more details, refer to gensim documentation https://radimrehurek.com/gensim/models/word2vec.html
